@@ -1,0 +1,1 @@
+Criação de um projeto seguindo a grade de aulas do curso The Odin Project, onde irei utilizar meus conhecimentos de HTML e CSS para criação de uma landing page básica
