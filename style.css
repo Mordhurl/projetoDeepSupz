@@ -24,7 +24,7 @@ body{
 .right-header{
     font-size: 18px;
     color: #f9faf8;
-    padding: 0px 25px;
+    padding: 0px 75px;
 }
 
 ul{
@@ -42,12 +42,14 @@ ul{
     color: #f9faf8;
     font-weight: 900;
     width: 400px;
+    height: 150px;
 }
 
 .secondary-text{
     font-size: 18px;
     color: #e5e7eb;
-    width: 600px;
+    width: 500px;
+    margin-top: ;
 }
 
 .hero-texts{
@@ -68,7 +70,7 @@ ul{
     align-items: center;
     color: white;
     background-color: #5a5a5a;
-    width: 620px;
+    width: 580px;
     height: 240px;
 }
 
@@ -77,4 +79,12 @@ button{
     background-color: #3882f6;
     width: 100px;
     height: 30px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.1)
 }
