@@ -103,17 +103,17 @@ button:hover{
     justify-content: space-between;
     gap: 52px;
     padding: 0px 75px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .quote-section{
     background-color: #e5e7eb;
-    height: 400px;
+    height: 350px;
 }
 
 .primary-quote{
-    text-align: center;
-    padding: 100px 280px;
+    text-align: justify;
+    padding: 80px 280px;
     color: #1f2937;
     font-size: 36px;
     font-family: open-sans, sans-serif;
@@ -128,3 +128,34 @@ button:hover{
     padding-right: 75px;
     font-weight: bold;
 }
+
+.action-call{
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 80px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.primary-call{
+    font-size: 30px;
+    color: white;
+}
+
+.secondary-call{
+    font-size: 15px;
+    color: #dfdfdf;
+}
+
+.call-button{
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    border: solid white;
+}
+
